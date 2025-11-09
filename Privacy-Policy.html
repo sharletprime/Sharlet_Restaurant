@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sharlet Restaurant – Privacy Policy</title>
+  <style>
+    :root{
+      --bg:#0f1115; --card:#141821; --text:#e8edf2; --muted:#b6c0cc; --accent:#46b3ff; --border:#232a36;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:880px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:linear-gradient(180deg,var(--bg) 75%,transparent);padding:18px 0 6px;z-index:10}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px}
+    h1{font-size:28px;margin:0 0 6px}
+    .sub{color:var(--muted);font-size:14px;margin-bottom:18px}
+    h2{font-size:20px;margin:28px 0 10px}
+    h3{font-size:16px;margin:18px 0 8px}
+    ul{padding-left:18px;margin:8px 0}
+    li{margin:6px 0}
+    .toc{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 0;padding:0}
+    .toc a{display:inline-block;background:#0e121a;border:1px solid var(--border);padding:8px 10px;border-radius:10px;font-size:14px}
+    code,.mono{font-family:ui-monospace,Menlo,Monaco,Consolas,monospace;font-size:90%}
+    .badge{display:inline-block;font-size:12px;padding:2px 8px;border:1px solid var(--border);border-radius:999px;background:#0d1219;color:var(--muted)}
+    .pill{display:inline-flex;gap:8px;flex-wrap:wrap}
+    .note{color:var(--muted);font-size:14px}
+    .section{margin-top:14px}
+    footer{margin:28px 0;color:var(--muted);font-size:14px}
+    hr{border:0;border-top:1px solid var(--border);margin:22px 0}
+    @media (prefers-color-scheme: light){
+      :root{--bg:#f6f8fb;--card:#ffffff;--text:#111827;--muted:#5b6472;--accent:#0b75ff;--border:#e5e7eb}
+      header{background:linear-gradient(180deg,#f6f8fb 75%,transparent)}
+      .toc a{background:#fff}
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="card">
+      <h1>Sharlet Restaurant – Privacy Policy</h1>
+      <div class="sub">Last Updated: <span id="last-updated" class="mono">—</span></div>
+      <nav>
+        <div class="toc">
+          <a href="#info">1. Information We Collect</a>
+          <a href="#use">2. How We Use Your Information</a>
+          <a href="#security">3. Data Storage & Security</a>
+          <a href="#sharing">4. Data Sharing</a>
+          <a href="#permissions">5. Permissions We Use</a>
+          <a href="#rights">6. User Rights</a>
+          <a href="#children">7. Children’s Privacy</a>
+          <a href="#changes">8. Changes to This Policy</a>
+          <a href="#contact">9. Contact Us</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="card">
+
+    <section class="section" id="intro">
+      <p><strong>Sharlet Restaurant</strong> ("the App", "we", "our", "us") helps users browse menus, view food posts, and manage restaurant operations. This Privacy Policy explains how we collect, use, and protect your information.</p>
+    </section>
+
+    <section class="section" id="info">
+      <h2>1. Information We Collect</h2>
+      <p>We may collect the following types of information:</p>
+
+      <h3>1.1 Personal Information</h3>
+      <p>When you use or register on the app (admin or subadmin), we may collect:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>User role (admin / subadmin)</li>
+      </ul>
+      <p>This information is used only for authentication and account management.</p>
+
+      <h3>1.2 Location Information</h3>
+      <div class="pill">
+        <span class="badge">Fine Location</span>
+        <span class="badge">Coarse Location</span>
+      </div>
+      <p>Location is used to detect your country for availability settings and region‑based content. It is not stored or shared.</p>
+
+      <h3>1.3 Device Information</h3>
+      <p>We may collect:</p>
+      <ul>
+        <li>Device model</li>
+        <li>Operating system version</li>
+        <li>App version</li>
+      </ul>
+      <p>Used only for performance improvement and debugging.</p>
+
+      <h3>1.4 Media Uploads</h3>
+      <p>Admins or subadmins may upload:</p>
+      <ul>
+        <li>Food images</li>
+        <li>Menu photos</li>
+      </ul>
+      <p>Stored securely in Firebase Storage to display inside the app.</p>
+    </section>
+
+    <section class="section" id="use">
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>Authentication and account login</li>
+        <li>Country detection to personalize experience</li>
+        <li>Creating and managing food posts</li>
+        <li>Updating stock, prices, and availability</li>
+        <li>Managing admin/subadmin access</li>
+        <li>Improving user experience</li>
+        <li>App security and performance</li>
+      </ul>
+      <p>We do not sell, rent, or trade your personal data.</p>
+    </section>
+
+    <section class="section" id="security">
+      <h2>3. Data Storage & Security</h2>
+      <p>Your data is stored securely using:</p>
+      <ul>
+        <li>Firebase Authentication</li>
+        <li>Firebase Firestore</li>
+        <li>Firebase Storage</li>
+      </ul>
+      <p>Google Firebase provides industry‑level encryption and protection. We take reasonable steps to protect your information from unauthorized access.</p>
+    </section>
+
+    <section class="section" id="sharing">
+      <h2>4. Data Sharing</h2>
+      <ul>
+        <li>We do not share your personal data with any third party except Firebase (Google) for cloud hosting.</li>
+        <li>We may share information with law enforcement only if legally required.</li>
+        <li>We do not share your data for advertising.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="permissions">
+      <h2>5. Permissions We Use</h2>
+      <h3>✅ INTERNET</h3>
+      <p>To load posts, images, and sync data.</p>
+
+      <h3>✅ ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION</h3>
+      <p>To detect your country for app settings and location features.</p>
+
+      <h3>✅ READ / WRITE Storage (if applicable)</h3>
+      <p>To allow selecting and uploading food images. We do not access any data without permission.</p>
+    </section>
+
+    <section class="section" id="rights">
+      <h2>6. User Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access your data</li>
+        <li>Request data deletion</li>
+        <li>Correct your information</li>
+        <li>Disable location permission</li>
+        <li>Sign out at any time</li>
+      </ul>
+      <p>To request data deletion, contact us at: <span class="mono" id="delete-email">support@example.com</span></p>
+    </section>
+
+    <section class="section" id="children">
+      <h2>7. Children’s Privacy</h2>
+      <p>Sharlet Restaurant is not designed for children under 13. We do not knowingly collect data from children.</p>
+    </section>
+
+    <section class="section" id="changes">
+      <h2>8. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy occasionally. Updates will be shown inside the app or on our website.</p>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>9. Contact Us</h2>
+      <ul>
+        <li><span class="mono">App Name:</span> Sharlet Restaurant</li>
+        <li><span class="mono">Email:</span> <a id="support-email" href="mailto:sharletprime@gmail.com">sharletprime@gmail.com</a></li>
+      </ul>
+      <p class="note">Replace the email above with your official support address.</p>
+    </section>
+
+    <hr>
+    <footer>
+      <p>© <span id="year"></span> Sharlet Prime. All rights reserved.</p>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  (function(){
+    const d = new Date();
+    const fmt = new Intl.DateTimeFormat(undefined,{year:'numeric',month:'long',day:'numeric'}).format(d);
+    document.getElementById('last-updated').textContent = fmt;
+    document.getElementById('year').textContent = d.getFullYear();
+  })();
+
+  (function(){
+    const params = new URLSearchParams(location.search);
+    const email = params.get('email');
+    if(email){
+      const link = document.getElementById('support-email');
+      const del = document.getElementById('delete-email');
+      link.textContent = email;
+      link.href = 'mailto:'+email;
+      del.textContent = email;
+    }
+  })();
+</script>
+
+</body>
+</html>
